@@ -108,16 +108,59 @@ li {
     justify-content: space-between;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 4%;
 
 }
 
 .sous-projet{
-    padding: 2%;
-    padding-left: 13%;
-    padding-right: 13%;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    padding-left: 16%;
+    padding-right: 16%;
+    background: url("image/effacer.png");
+    background-size: 100% 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.sous-projet:hover{
+    animation: animation_projet 0.3s forwards ;
+    color: white;
+    font-weight: bold;
 }
 
 .mes-projets{
+    margin-top: 15%;
     margin-bottom: 20%;
+}
+
+.footer{
+    padding-top: 10%;
+    background-color: #7510F7;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.text-footer{
+    color: lightgray;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+@keyframes animation_projet {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.02);
+    }
 }
