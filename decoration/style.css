@@ -28,6 +28,15 @@
     width: 12%;
 }
 
+.screenshot-projet{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 25%;
+    width: 25%;
+}
+
 .bar-en-haut-enfant{
     float: left;
 }
@@ -45,6 +54,12 @@
     font-size: 140%;
 }
 
+#mini-presentation-projet{
+    font-size: 140%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 #gras {
     font-weight: bold;
 }
@@ -53,6 +68,8 @@
     padding-top: 2%;
     text-align: center;
     font-size: 110%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .presentation-competence-au-dessus-de-breve-presentation{
